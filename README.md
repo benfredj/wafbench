@@ -1,0 +1,2 @@
+# wafbench
+This is a benchmarking framework to test and compare Web application Firewalls. It includes a vulnerable website written in PHP (modified version of Wackopicko), more than 200 attacks (that cover the OWASP TOP 10 risks) and legitimate requests (to compute FN and TN). The requests will be generated with wafbench (written in C) which checks the responses, and computes FN, TN, TP, FP parameters.
